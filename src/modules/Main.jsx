@@ -2,7 +2,7 @@ import { Route, Routes } from "react-router-dom"
 import { Products } from "./Products"
 import { Promo } from "./Promo"
 import { Order } from "./Order"
-import { Cart } from "./cart"
+import { Cart } from "./Cart"
 
 export const Main = () => {
   return (
@@ -22,14 +22,6 @@ export const Main = () => {
          path="/cart"
           element={
             <>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
               <Cart />
               <Order />
             </>
