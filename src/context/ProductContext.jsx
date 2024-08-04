@@ -7,6 +7,16 @@ export const ProductProvider = ({ children }) => {
   const [products, setProducts] = useState ([]);
   const [category, setCategory] = useState ("");
 
+  const categories = {
+    tea: "Чай",
+    coffee: "Кофе",
+    teapots: "Чайники",
+    cezvers: "Турки",
+    other: "Прочее",
+  }
+
+  
+
   useEffect(() => {
     if (category) {
       fetch(`${API_URL}/api/products/${category}`)
@@ -22,7 +32,7 @@ export const ProductProvider = ({ children }) => {
   }, [category]);
 
   return (
-    <ProductContext.Provider value={{products, setCategory}}>
+    <ProductContext.Provider value={{products, setCategory, categories}}>
       {children}
     </ProductContext.Provider>
   );
