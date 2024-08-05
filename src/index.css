@@ -101,7 +101,7 @@ input[type="number"] {
   height: 28px;
   color: #64099b;
   font-size: 12px;
-  background-image: url("/public/image/bag.svg");
+  background-image: url("/image/bag.svg");
   background-position: center;
   background-repeat: no-repeat;
   text-align: center;
@@ -131,7 +131,7 @@ input[type="number"] {
   min-height: 600px;
   padding-top: 210px;
   padding-bottom: 80px;
-  background-image: url("/public/image/bg-image.png");
+  background-image: url("/image/bg-image.png");
   background-position: right 113px bottom 0;
   background-repeat: no-repeat;
 }
@@ -381,11 +381,11 @@ input[type="number"] {
 }
 
 .cart-item__quantity-button_minus {
-  background-image: url("/public/image/minus.svg");
+  background-image: url("/image/minus.svg");
 }
 
 .cart-item__quantity-button_plus {
-  background-image: url("/public/image/plus.svg");
+  background-image: url("/image/plus.svg");
 }
 
 .cart-item__quantity-input {
@@ -525,7 +525,7 @@ input[type="number"] {
     min-height: 484px;
     padding-top: 172px;
     padding-bottom: 60px;
-    background-image: url("/public/image/bg-image-1024.png");
+    background-image: url("/image/bg-image-1024.png");
     background-position: right 48px bottom 0;
   }
 
