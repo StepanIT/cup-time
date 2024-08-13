@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useCart } from "../context/CartContext";
-import { CartItem } from "./CartItem.jsx";
+import { CartItem } from "./CartItem";
 import { SkeletonLoader } from "./SceletonLoader";
 import { useOrder } from "../context/OrderContext";
 import { API_URL } from "../const";
