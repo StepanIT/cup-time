@@ -49,4 +49,3 @@ const handleIncrease = () => {
 </li>
   );
 };
-export default CartItem;
